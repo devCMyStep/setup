@@ -6,15 +6,15 @@ follows:
 
 ```sh
 # to start, please ssh login as root with your key
-wget -qO- https://github.com/tibotiber/setup/raw/master/update_locales.sh | sh
+wget -qO- https://github.com/devCMyStep/setup/raw/master/update_locales.sh | sh
 exit
 # please ssh login as root again
-wget -qO- https://github.com/tibotiber/setup/raw/master/create_user.sh | sh -s <your_username>
+wget -qO- https://github.com/devCMyStep/setup/raw/master/create_user.sh | sh -s <your_username>
 su <your_username>
 cd
-wget -qO- https://github.com/tibotiber/setup/raw/master/setup.sh | sh -s <your_username>
+wget -qO- https://github.com/devCMyStep/setup/raw/master/setup.sh | sh -s <your_username>
 zsh
-wget -qO- https://github.com/tibotiber/setup/raw/master/configure_zsh.sh | zsh
+wget -qO- https://github.com/devCMyStep/setup/raw/master/configure_zsh.sh | zsh
 # IMPORTANT: follow instructions in terminal
 # you can now exit and reconnect as <your_username> with the same key
 ```
