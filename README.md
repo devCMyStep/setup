@@ -23,10 +23,10 @@ wget -qO- https://github.com/devCMyStep/setup/raw/master/configure_zsh.sh | zsh
 
 ```
 # only after reconnecting, you can install node if needed
-wget -qO- https://github.com/tibotiber/setup/raw/master/install_node.sh | zsh -s <version> # version defaults to stable
+wget -qO- https://github.com/devCMyStep/setup/raw/master/install_node.sh | zsh -s <version> # version defaults to stable
 
 # or nginx
-wget -qO- https://github.com/tibotiber/setup/raw/master/install_nginx.sh | sh
+wget -qO- https://github.com/devCMyStep/setup/raw/master/install_nginx.sh | sh
 ```
 
 ### Notes: 
