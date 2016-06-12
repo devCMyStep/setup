@@ -45,7 +45,7 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/tibotiber/dotfiles.git
+git clone https://github.com/devCMyStep/dotfiles.git
 cd dotfiles/
 git submodule update --init --recursive
 cd
